@@ -1,0 +1,102 @@
+html,
+body
+{
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    background-color:white;
+}
+
+.img-1
+{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+   
+
+}
+.img-2
+{
+    background-image: url(images/image2.png);
+    min-height:400px;
+
+}
+.img-3
+{
+    background-image: url(images/image3.png);
+    min-height:400px;
+
+}
+.img-1,.img-2,.img-3
+{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.Span-container
+{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  
+}
+
+.Span-container :hover/* hover effect on the first page*/
+{
+    background-color:#C7F2A4;
+    transition:3s;
+    
+    
+}
+
+.text
+{
+ 
+    background-color:#f4f4f4;
+    border: solid 2px black;
+    padding: 20px;
+}
+.section/* styling of the each section*/
+{
+    padding: 50px 80px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.section-light
+{
+    background:#f4f4f4 ;
+    color: #666;
+}
+
+.section-dark
+{
+    background:#282e34;
+    color: #ddd;
+
+}
+
+.text-2
+{
+    padding: 20px;
+    font-size: 2.3rem;
+    color: white;
+    letter-spacing: 0mm;
+}
+.text-3
+{
+    padding: 20px;
+    font-size: 2.3rem;
+    color: white;
+    letter-spacing: 0mm;
+}
+

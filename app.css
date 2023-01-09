@@ -1,0 +1,67 @@
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 1s ease;
+    
+}
+
+.container 
+{
+
+     display: flex;
+
+     /*height: 500px;
+     align-items:flex-end  ,flex-start,  stretch ,center;
+     flex-direction:  row-reverse;  column-reverse row column*/
+
+     /*justify-content: space-between/*space-between;  flex-start, flex-end, space-around, space-evenly*/
+}
+
+
+
+
+
+
+
+
+
+ .container div
+{
+    background-color: #718096;
+    border: 1px solid silver;
+    padding: 1.6rem; 
+   /* width: 17%;*/
+}
+
+.item-1
+{
+  /*flex: 1;*/
+  order: 3;
+
+
+
+
+}
+.item-2
+{
+  /*flex: 2;/* width gots doubles here*/
+  order: 2;
+
+
+}
+.item-3
+{
+  /*flex: 3;/* here width gots triple*/
+  order: 1; /* there order will get changed*/
+
+
+}
+@media(max-width:640px)
+{
+  .container
+  {
+    flex-direction:column;
+  }
+}
